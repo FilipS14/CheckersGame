@@ -1,2 +1,1 @@
 # CheckersGame
-![Uploading image.png…]()
