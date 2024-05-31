@@ -1,0 +1,31 @@
+﻿<Application x:Class="CheckersProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CheckersProject"
+             xmlns:vm="clr-namespace:CheckersProject.ViewModel"
+             xmlns:view="clr-namespace:CheckersProject.View"
+             StartupUri="MainWindow.xaml">
+    
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type vm:GameViewModel}">
+            <view:GameView></view:GameView>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:MenuViewModel}">
+            <view:MenuView></view:MenuView>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:OptionsViewModel}">
+            <view:OptionsView></view:OptionsView>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:LeaderBoardViewModel}">
+            <view:LeaderBoardView></view:LeaderBoardView>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:AboutViewModel}">
+            <view:AboutView></view:AboutView>
+        </DataTemplate>
+
+    </Application.Resources>
+</Application>

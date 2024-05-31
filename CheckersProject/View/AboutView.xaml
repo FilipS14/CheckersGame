@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="CheckersProject.View.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:CheckersProject.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.DataContext>
+        <vm:AboutViewModel />
+    </UserControl.DataContext>
+
+    <Canvas>
+
+        <Button 
+        Command="{Binding DataContext.BackFromAboutToMenuCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+        Height="52" Width="52" Canvas.Left="6" Canvas.Top="5">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Image x:Name="imgButton" Source="/Images/img_back_button_standard.png" Stretch="Fill"/>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="imgButton" Property="Source" Value="/Images/img_back_button_hover.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Image
+            Source="/Images/img_profil_about.png"
+            Stretch="Fill"
+            Width="177"
+            Height="253" Canvas.Left="208" Canvas.Top="121" HorizontalAlignment="Center" VerticalAlignment="Top"
+            >
+        </Image>
+
+        <Image
+            Source="/Images/img_alien_frame.png"
+            Stretch="Fill"
+            Width="292"
+            Height="335" Canvas.Left="152" Canvas.Top="78" HorizontalAlignment="Left" VerticalAlignment="Top">
+        </Image>
+
+        <Image
+            Source="/Images/img_alien_with_board.png"
+            Stretch="Fill"
+            Width="430"
+            Height="546" Canvas.Left="493" Canvas.Top="33" HorizontalAlignment="Center" VerticalAlignment="Top">
+        </Image>
+
+        <TextBlock
+            Text="Nume: Sîrboiu Filip"
+            FontSize="23"
+            FontWeight="Bold"
+            Foreground="Black" Canvas.Left="546" Canvas.Top="335"
+            FontFamily="MV Boli" Height="40" Width="228" HorizontalAlignment="Left" VerticalAlignment="Center">
+        </TextBlock>
+
+        <TextBlock
+            Text="Grupa: 10LF323"
+            FontSize="23"
+            FontWeight="Bold"
+            Foreground="Black" Canvas.Left="547" Canvas.Top="379"
+            FontFamily="MV Boli" Height="40" Width="228"
+            >
+        </TextBlock>
+
+        <TextBlock
+            Text="filip.sirboiu@student.unitbv.ro"
+            FontSize="23"
+            FontWeight="Bold"
+            Foreground="Black" Canvas.Left="546" Canvas.Top="416"
+            FontFamily="MV Boli" Height="40" Width="348" HorizontalAlignment="Left" VerticalAlignment="Top"
+            >
+        </TextBlock>
+
+        <TextBlock
+            Text="Checkers Game"
+            FontSize="27"
+            FontWeight="Bold"
+            Foreground="Black" Canvas.Left="546" Canvas.Top="456"
+            FontFamily="MV Boli" Height="40" Width="348" HorizontalAlignment="Left" VerticalAlignment="Top"
+    >
+        </TextBlock>
+
+    </Canvas>
+</UserControl>

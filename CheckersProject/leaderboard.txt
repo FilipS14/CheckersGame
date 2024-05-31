@@ -1,0 +1,7 @@
+Ana,3,0
+Andrei,0,2
+Maria,0,3
+Alex,2,0
+
+
+

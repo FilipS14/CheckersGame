@@ -1,0 +1,92 @@
+Current Player: Green
+Blue Player Name: Ana
+Green Player Name: Maria
+Number of Blue Pieces: 12
+Number of Green Pieces: 11
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=0, Column=1, X=245, Y=99
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=0, Column=3, X=357, Y=99
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=0, Column=5, X=469, Y=99
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=0, Column=7, X=581, Y=99
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=1, Column=0, X=189, Y=156
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=1, Column=2, X=301, Y=156
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=1, Column=4, X=413, Y=156
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=1, Column=6, X=525, Y=156
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=2, Column=1, X=245, Y=213
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=5, Column=2, X=300, Y=384
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=2, Column=5, X=469, Y=213
+Piece: Color=#FF0000FF, Type=Normal, PieceColor=Blue, Row=2, Column=7, X=581, Y=213
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=5, Column=0, X=189, Y=384
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=5, Column=4, X=413, Y=384
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=5, Column=6, X=525, Y=384
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=6, Column=1, X=245, Y=441
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=6, Column=3, X=357, Y=441
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=6, Column=5, X=469, Y=441
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=6, Column=7, X=581, Y=441
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=7, Column=0, X=189, Y=498
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=7, Column=2, X=301, Y=498
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=7, Column=4, X=413, Y=498
+Piece: Color=#FF008000, Type=Normal, PieceColor=Green, Row=7, Column=6, X=525, Y=498
+Board: PieceColor=None, Occupied=False, Row=0, Column=0
+Board: PieceColor=Blue, Occupied=True, Row=0, Column=1
+Board: PieceColor=None, Occupied=False, Row=0, Column=2
+Board: PieceColor=Blue, Occupied=True, Row=0, Column=3
+Board: PieceColor=None, Occupied=False, Row=0, Column=4
+Board: PieceColor=Blue, Occupied=True, Row=0, Column=5
+Board: PieceColor=None, Occupied=False, Row=0, Column=6
+Board: PieceColor=Blue, Occupied=True, Row=0, Column=7
+Board: PieceColor=Blue, Occupied=True, Row=1, Column=0
+Board: PieceColor=None, Occupied=False, Row=1, Column=1
+Board: PieceColor=Blue, Occupied=True, Row=1, Column=2
+Board: PieceColor=None, Occupied=False, Row=1, Column=3
+Board: PieceColor=Blue, Occupied=True, Row=1, Column=4
+Board: PieceColor=None, Occupied=False, Row=1, Column=5
+Board: PieceColor=Blue, Occupied=True, Row=1, Column=6
+Board: PieceColor=None, Occupied=False, Row=1, Column=7
+Board: PieceColor=None, Occupied=False, Row=2, Column=0
+Board: PieceColor=Blue, Occupied=True, Row=2, Column=1
+Board: PieceColor=None, Occupied=False, Row=2, Column=2
+Board: PieceColor=None, Occupied=True, Row=2, Column=3
+Board: PieceColor=None, Occupied=False, Row=2, Column=4
+Board: PieceColor=Blue, Occupied=True, Row=2, Column=5
+Board: PieceColor=None, Occupied=False, Row=2, Column=6
+Board: PieceColor=Blue, Occupied=True, Row=2, Column=7
+Board: PieceColor=None, Occupied=False, Row=3, Column=0
+Board: PieceColor=None, Occupied=False, Row=3, Column=1
+Board: PieceColor=None, Occupied=False, Row=3, Column=2
+Board: PieceColor=None, Occupied=False, Row=3, Column=3
+Board: PieceColor=None, Occupied=False, Row=3, Column=4
+Board: PieceColor=None, Occupied=False, Row=3, Column=5
+Board: PieceColor=None, Occupied=False, Row=3, Column=6
+Board: PieceColor=None, Occupied=False, Row=3, Column=7
+Board: PieceColor=None, Occupied=False, Row=4, Column=0
+Board: PieceColor=None, Occupied=False, Row=4, Column=1
+Board: PieceColor=None, Occupied=False, Row=4, Column=2
+Board: PieceColor=None, Occupied=False, Row=4, Column=3
+Board: PieceColor=None, Occupied=False, Row=4, Column=4
+Board: PieceColor=None, Occupied=False, Row=4, Column=5
+Board: PieceColor=None, Occupied=False, Row=4, Column=6
+Board: PieceColor=None, Occupied=False, Row=4, Column=7
+Board: PieceColor=Green, Occupied=True, Row=5, Column=0
+Board: PieceColor=None, Occupied=False, Row=5, Column=1
+Board: PieceColor=Blue, Occupied=True, Row=5, Column=2
+Board: PieceColor=None, Occupied=False, Row=5, Column=3
+Board: PieceColor=Green, Occupied=True, Row=5, Column=4
+Board: PieceColor=None, Occupied=False, Row=5, Column=5
+Board: PieceColor=Green, Occupied=True, Row=5, Column=6
+Board: PieceColor=None, Occupied=False, Row=5, Column=7
+Board: PieceColor=None, Occupied=False, Row=6, Column=0
+Board: PieceColor=Green, Occupied=True, Row=6, Column=1
+Board: PieceColor=None, Occupied=False, Row=6, Column=2
+Board: PieceColor=Green, Occupied=True, Row=6, Column=3
+Board: PieceColor=None, Occupied=False, Row=6, Column=4
+Board: PieceColor=Green, Occupied=True, Row=6, Column=5
+Board: PieceColor=None, Occupied=False, Row=6, Column=6
+Board: PieceColor=Green, Occupied=True, Row=6, Column=7
+Board: PieceColor=Green, Occupied=True, Row=7, Column=0
+Board: PieceColor=None, Occupied=False, Row=7, Column=1
+Board: PieceColor=Green, Occupied=True, Row=7, Column=2
+Board: PieceColor=None, Occupied=False, Row=7, Column=3
+Board: PieceColor=Green, Occupied=True, Row=7, Column=4
+Board: PieceColor=None, Occupied=False, Row=7, Column=5
+Board: PieceColor=Green, Occupied=True, Row=7, Column=6
+Board: PieceColor=None, Occupied=False, Row=7, Column=7
